@@ -61,25 +61,43 @@
 // console.log(car["Model"], car["tranmission"]);
 
 
-let keyboard = {
-    price: "$27.75",
-    color: "k1 white",
-    storeName: "MageGee Store",
-    purchase: "1k+ bought in Past Month",
-    features: "RGB LED, 104 key",
-    compatibility: "PC/Laptop",
-    items: "Keyboard & Mouse",
-    ratings: 14132,
-    returnPolicy: true,
-    replacementPolicy:true,
-};
-console.log(keyboard);
+// let keyboard = {
+//     price: "$27.75",
+//     color: "k1 white",
+//     storeName: "MageGee Store",
+//     purchase: "1k+ bought in Past Month",
+//     features: "RGB LED, 104 key",
+//     compatibility: "PC/Laptop",
+//     items: "Keyboard & Mouse",
+//     ratings: 14132,
+//     returnPolicy: true,
+//     replacementPolicy:true,
+// };
+// console.log(keyboard);
 
-let car = {
-    Name: "Dodge",
-    model: "2020",
-    series: "Challenger",
-    transmission: "Manual",
-    gearbox: "6 gears"
-};
-console.log(car);
+// let car = {
+//     Name: "Dodge",
+//     model: "2020",
+//     series: "Challenger",
+//     transmission: "Manual",
+//     gearbox: "6 gears"
+// };
+// console.log(car);
+
+
+// console.log(a, b, c);
+// let a = 4;
+
+// var a = 3;
+// var b= 2;
+// console.log("Value of a+=b:", a+=b);
+// console.log("Value of a-=b:", a-=b);
+// console.log("Value of a*=b:", a*b);
+// console.log("Value of a/=b:", a/=b);
+// console.log("Value of a**=b:", a**=b);
+
+var age = 13;
+var nat = "Pakistani";
+console.log("Is Age greater than 18?:",age > 18);
+console.log("Is nationality is Pakistani?:", nat === "Pakistani");
+console.log("Final Decision for Issuance of CNIC:", age > 18 && nat === "Pakistani");

@@ -96,8 +96,51 @@
 // console.log("Value of a/=b:", a/=b);
 // console.log("Value of a**=b:", a**=b);
 
-var age = 13;
-var nat = "Pakistani";
-console.log("Is Age greater than 18?:",age > 18);
-console.log("Is nationality is Pakistani?:", nat === "Pakistani");
-console.log("Final Decision for Issuance of CNIC:", age > 18 && nat === "Pakistani");
+// var age = 13;
+// var nat = "Pakistani";
+// console.log("Is Age greater than 18?:",age > 18);
+// console.log("Is nationality is Pakistani?:", nat === "Pakistani");
+// console.log("Final Decision for Issuance of CNIC:", age > 18 && nat === "Pakistani");
+
+
+// var currentDay = "Tuesday"; 
+// console.log("Is it a Weekend :", currentDay === "Saturday" || currentDay === "Sunday");
+
+
+var EmName = "Ruba";
+var Salary = 500000;
+if (Salary < 25000){
+    var tax = Salary*5/100;
+    var netSalary = Salary - tax;
+    console.log("Employee Name:", EmName);
+    console.log("Tax on Employee's Salary:", tax);
+    console.log("Net Salary Of the Employee:", netSalary);
+}
+else{
+    var tax = Salary*10/100;
+    var netSalary = Salary - tax;
+    console.log("Employee Name:", EmName);
+    console.log("Tax on Employee's Salary:", tax);
+    console.log("Net Salary Of the Employee:", netSalary);
+}
+
+var studentName = "Ruba";
+var obtMarks = 50;
+if (obtMarks >= 90){
+    console.log("Grade : A");
+}
+else if (obtMarks >= 80){
+    console.log("Grade : B");
+}
+else if (obtMarks >= 70){
+    console.log("Grade : C");
+}
+else if (obtMarks >= 60){
+    console.log("Grade : D");
+}
+else if (obtMarks >= 50){
+    console.log("Grade : E");
+}
+else if (obtMarks >= 0){
+    console.log("Grade : F");
+}

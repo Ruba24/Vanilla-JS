@@ -107,40 +107,91 @@
 // console.log("Is it a Weekend :", currentDay === "Saturday" || currentDay === "Sunday");
 
 
-var EmName = "Ruba";
-var Salary = 500000;
-if (Salary < 25000){
-    var tax = Salary*5/100;
-    var netSalary = Salary - tax;
-    console.log("Employee Name:", EmName);
-    console.log("Tax on Employee's Salary:", tax);
-    console.log("Net Salary Of the Employee:", netSalary);
-}
-else{
-    var tax = Salary*10/100;
-    var netSalary = Salary - tax;
-    console.log("Employee Name:", EmName);
-    console.log("Tax on Employee's Salary:", tax);
-    console.log("Net Salary Of the Employee:", netSalary);
-}
+// var EmName = "Ruba";
+// var Salary = 500000;
+// if (Salary < 25000){
+//     var tax = Salary*5/100;
+//     var netSalary = Salary - tax;
+//     console.log("Employee Name:", EmName);
+//     console.log("Tax on Employee's Salary:", tax);
+//     console.log("Net Salary Of the Employee:", netSalary);
+// }
+// else{
+//     var tax = Salary*10/100;
+//     var netSalary = Salary - tax;
+//     console.log("Employee Name:", EmName);
+//     console.log("Tax on Employee's Salary:", tax);
+//     console.log("Net Salary Of the Employee:", netSalary);
+// }
 
-var studentName = "Ruba";
-var obtMarks = 50;
-if (obtMarks >= 90){
-    console.log("Grade : A");
-}
-else if (obtMarks >= 80){
-    console.log("Grade : B");
-}
-else if (obtMarks >= 70){
-    console.log("Grade : C");
-}
-else if (obtMarks >= 60){
-    console.log("Grade : D");
-}
-else if (obtMarks >= 50){
-    console.log("Grade : E");
-}
-else if (obtMarks >= 0){
-    console.log("Grade : F");
-}
+// var studentName = prompt("Enter Your Name"); 
+// var obtMarks = prompt("Enter Your Marks");
+// var grade;
+// if (obtMarks >= 90 && obtMarks <= 100)
+//     grade = "A";
+// else if (obtMarks >= 80 && obtMarks <= 89)
+//     grade = "B";
+
+// else if (obtMarks >= 70 && obtMarks <= 79)
+//     grade = "C";
+
+// else if (obtMarks >= 60 && obtMarks <= 69)
+//     grade = "D";
+
+// else if (obtMarks >= 50 && obtMarks <=59)
+//     grade = "E";
+
+// else if(obtMarks >= 0 && obtMarks <=49)
+//     grade = "F";
+// console.log("Student Name:", studentName);
+// console.log("Marks", obtMarks);
+// console.log("Grade:", grade)
+
+// var sal = 200000;
+// if (sal <= 10000){
+//     var calTax = sal*5/100;
+//     console.log("Calculated Tax:",calTax);
+// }
+// else if(sal == 10000 && sal == 100000){
+//     var calTax = sal*10/100;
+//     console.log("Calculated Tax:",calTax);
+// }
+// else{
+//     var calTax = sal*20/100;
+//     console.log("Calculated Tax:",calTax);
+// }
+
+// var sum = 0;
+// for( i =1; i<=5; i++ ){
+//     console.log(i);
+//     sum = sum+i;
+// }
+// console.log("Sum of Values:",sum);
+
+// var number = prompt("Enter a number");
+// var i;
+// for(i = 0; i<=10; i++){
+//      console.log(number, "*", i, "=", number*i);
+// }
+
+// let i = 5;
+// while(i=-10){
+//     console.log(i);
+//     i--;
+// }
+
+var number = 2;
+while (number<=50){
+    if(number%2 === 0){
+    console.log("Even Numbers are :",number);
+    };
+    number++;
+};
+
+var number1 = 1;
+do{
+    if(number1%2===1){
+        console.log("Odd Numbers are:", number1);
+    };
+    number1 ++;
+}while(number1<=50);
